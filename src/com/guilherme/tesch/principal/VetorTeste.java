@@ -11,10 +11,13 @@ public class VetorTeste {
 
         Vetor lista = new Vetor();
 
-        lista.adiciona(a1);
-        lista.adiciona(a2);
-
         System.out.println(lista);
         //Serão 100 null´s, então o metodo "adiciona" esta funcionando. A ideia e percorrer t'odo o array e, assim que encontrar uma posição nula, o aluno da vez é armazenado nela.
+
+        System.out.println(lista.tamanho());
+        lista.adiciona(a1);
+        System.out.println(lista.tamanho());
+        lista.adiciona(a2);
+        System.out.println(lista.tamanho());
     }
 }

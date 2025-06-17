@@ -35,7 +35,7 @@ public class Vetor {
 
     public int tamanho(){
         //Devolve a quantidade de alunos
-        return 0;
+        return totalDeAlunos;
     }
 
     public String toString(){
