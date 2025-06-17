@@ -24,5 +24,8 @@ public class VetorTeste {
         System.out.println(lista.contem(a1));
 
         System.out.println(lista.contem(a3));
+
+        Aluno x = lista.pega(300);
+        System.out.println(x);
     }
 }
