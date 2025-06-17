@@ -8,6 +8,7 @@ public class VetorTeste {
         //testando metodo adiciona
         Aluno a1 = new Aluno("João");
         Aluno a2 = new Aluno("Jose");
+        Aluno a3 = new Aluno("Danilo");
 
         Vetor lista = new Vetor();
 
@@ -18,6 +19,10 @@ public class VetorTeste {
         lista.adiciona(a1);
         System.out.println(lista.tamanho());
         lista.adiciona(a2);
+
         System.out.println(lista.tamanho());
+        System.out.println(lista.contem(a1));
+
+        System.out.println(lista.contem(a3));
     }
 }

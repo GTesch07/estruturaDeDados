@@ -30,6 +30,11 @@ public class Vetor {
 
     public boolean contem(Aluno aluno){
         //descobre se o aluno está ou não na lista
+        for(int i = 0; i < totalDeAlunos; i++){
+            if (aluno.equals(alunos[i])){
+                return true;
+            }
+        }
         return false;
     }
 
