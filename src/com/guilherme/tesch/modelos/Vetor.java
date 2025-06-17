@@ -4,10 +4,20 @@ import java.util.Arrays;
 
 public class Vetor {
     private Aluno[] alunos = new Aluno[100];
+    private int totalDeAlunos = 0;
 
     public void adiciona(Aluno aluno){
         //recebe um aluno
-    }
+//        for (int i = 0; i < alunos.length; i++){
+//            if (alunos[i] == null){
+//                alunos[i] = aluno;
+//                break;
+        this.alunos[totalDeAlunos] = aluno;
+        totalDeAlunos++;
+            }
+
+
+
 
     public Aluno pega(int posicao){
         //recebe uma posição e devolve o aluno
